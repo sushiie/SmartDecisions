@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SmartDecisionsApp from "./components/SmartDecisionsApp";
+import 'normalize.css/normalize.css'
+import './styles/styles.scss'
 
 ReactDOM.render(<SmartDecisionsApp />, document.getElementById('app'));
 
